@@ -182,3 +182,19 @@ function get_woosliderht($atts, $content = null) {
 add_shortcode('woosliderht', 'get_woosliderht');
 
 
+function topmod1_change_gateway_icon( $output, $id ) {
+	$output = str_replace(
+		array(
+			'What is PayPal',
+			'paypal.com/at/'
+		),
+		array(
+			'Was ist PayPal',
+			'paypal.com/de/'
+		),
+		$output
+	);
+	return $output;
+}
+add_filter( 'woocommerce_gateway_icon', 'topmod1_change_gateway_icon', 10, 2 );
+
