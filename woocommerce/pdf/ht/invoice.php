@@ -36,7 +36,7 @@
 			</div>
 		</td>
 		<td>
-			<div class="recipient-address"><?php $wpo_wcpdf->billing_address(); ?></div>
+			<div class="recipient-address"><?php $wpo_wcpdf->billing_address(); ?><br />Österreich</div>
 		</td>
 	</tr>
 </table><!-- head container -->

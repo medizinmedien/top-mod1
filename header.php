@@ -90,7 +90,7 @@ jQuery(document).ready(function() {
 	  			<div class="headrightinner2">
 	  				<p class="actionpoints">
 	  				1 Jahres-Abo<br />
-	  				60 Fragen<br />
+	  				60 Fälle<br />
 	  				15 Fachgebiete<br />
 	  				10 DFP-Punkte<br />
 	  				<s>statt CHF 295,-</s><br />
@@ -117,7 +117,11 @@ jQuery(document).ready(function() {
   }
 ?>
 	  			
-					<?php if ( is_user_logged_in() ) { ?> 
+			<?php if ( !is_user_logged_in() ) { ?> 
+					<br /><br /><br /><a href="<?php echo wp_login_url(); ?>" class="demobutton">Login</a>
+			<?php } ?> 
+				
+			<?php if ( is_user_logged_in() ) { ?> 
 						<br /><br /><br /><a href="<?php echo wp_logout_url(); ?>" class="demobutton">Logout</a>
 					<?php } ?> 
 					

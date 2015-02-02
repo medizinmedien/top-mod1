@@ -496,3 +496,7 @@ padding: 10px;
 body .widget .wooslider h3 {
 text-align: left;
 }
+
+#wootitle {
+    display: none !important;
+}
