@@ -112,17 +112,17 @@ jQuery(document).ready(function() {
   if ($show_demo) {
 ?>
 		<a href="#testabo" class="demobutton">zur Demo </a><br /><br />
-			Nach Login, mit 3 Fragen jetzt das Wissens-Abo testen und &uuml;berzeugen lassen.
+			
 <?php
   }
 ?>
 	  			
 			<?php if ( !is_user_logged_in() ) { ?> 
-					<br /><br /><br /><a href="<?php echo wp_login_url(); ?>" class="demobutton">Login</a>
+					<br /><br /><a href="<?php echo wp_login_url(); ?>" class="demobutton">Login</a>
 			<?php } ?> 
 				
 			<?php if ( is_user_logged_in() ) { ?> 
-						<br /><br /><br /><a href="<?php echo wp_logout_url(); ?>" class="demobutton">Logout</a>
+						<br /><br /><a href="<?php echo wp_logout_url(); ?>" class="demobutton">Logout</a>
 					<?php } ?> 
 					
 					
