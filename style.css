@@ -312,6 +312,17 @@ div.headright2inner img{
 	.mobiltabletonly {
 		display:block;
 	}
+	
+	.sc30.widget .col-full{
+		width: 90% !important;
+	}
+	.sc50.widget .col-full{
+		width: 90% !important;
+	}
+	
+	.sc70.widget .col-full{
+		width: 90% !important;
+	}
 
 }
 
