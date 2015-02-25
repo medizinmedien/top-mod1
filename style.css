@@ -4,7 +4,7 @@
  Description:    Custom Code for theonepager Mod1
  Author:         wh
  Template:       theonepager
- Version:        0.1.3
+ Version:        0.1.3.1
  GitHub Theme URI: https://github.com/medizinmedien/top-mod1
 */
 
@@ -139,6 +139,10 @@ div.headrightinner2{
     background-color:#003c68;
     color: #ffffff;
     padding: 0.8em 0 0 0;
+}
+
+#footer .col-full{
+    padding: 0 0 2em 0;
 }
 #footer a{
     color: #ffffff;
