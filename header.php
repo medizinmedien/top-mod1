@@ -40,7 +40,7 @@ jQuery(document).ready(function() {
 <?php
 }
 ?>  
-
+<script> var _prum = [['id', '550b2788abe53d0f18c6c9d2'], ['mark', 'firstbyte', (new Date()).getTime()]]; (function() { var s = document.getElementsByTagName('script')[0] , p = document.createElement('script'); p.async = 'async'; p.src = '//rum-static.pingdom.net/prum.min.js'; s.parentNode.insertBefore(p, s); })(); </script>
 </head>
 <body <?php body_class(); ?>>
 <?php woo_top(); ?>
