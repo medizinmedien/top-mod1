@@ -40,6 +40,7 @@ jQuery(document).ready(function() {
 <?php
 }
 ?>  
+
 <script> var _prum = [['id', '550b2788abe53d0f18c6c9d2'], ['mark', 'firstbyte', (new Date()).getTime()]]; (function() { var s = document.getElementsByTagName('script')[0] , p = document.createElement('script'); p.async = 'async'; p.src = '//rum-static.pingdom.net/prum.min.js'; s.parentNode.insertBefore(p, s); })(); </script>
 </head>
 <body <?php body_class(); ?>>
@@ -167,7 +168,8 @@ jQuery(document).ready(function() {
 		<div class="headright2">    
 			<div class="headright2inner">   
 					<a href="http://www.arztakademie.at/" target="_blank"><img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/images/arztakademie.png" alt="arztakademie" /></a><br />
-					<a href="http://www.oegam.at/" target="_blank"><img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/images/oegam.png" alt="oegam" /></a>
+					<a href="http://www.oegam.at/" target="_blank"><img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/images/oegam.png" alt="oegam" /></a><br />
+					<a href="http://www.novartis.at/" target="_blank"><img src="<?php echo get_bloginfo('stylesheet_directory'); ?>/images/novartis.png" alt="novartis" /></a>
 			</div>
 		</div>
 	<?php

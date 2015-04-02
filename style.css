@@ -215,8 +215,10 @@ div.headright2inner img{
 
 
 @media screen and (max-width: 1000px){
-
+.widget .threecol-one{margin-right: 0; width: 100% !important;}
 }
+
+
 
 @media screen and (max-width: 740px){
 	
