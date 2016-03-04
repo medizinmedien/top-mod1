@@ -101,14 +101,10 @@ jQuery(document).ready(function() {
   
   $show_demo = true;
   if ( is_user_logged_in() ) {
-		$bright_key=bright_get_authentication_code_for_user(wp_get_current_user());
-		$registration = bright_get_registration_data($bright_key,"hippokratestda620b28-1a65-49f4-8a71-7f93b56548f0");
-		if ($registration) {
-	  	$json_data = json_decode($registration);
-	  	if ($json_data[0] && ! $json_data[0]->deleted) {
-				$show_demo = false;
-      }
-		}
+    $bright = Bright\Wordpress::getInstance();
+    $registration = $bright->getRegistrationDataForCourse("hippokratest20155211e21a-7ce7-464f-a9c4-0b1fa61439ba");
+    if ($registration && is_array($registration) && $registration[0] && !$registration[0]->deleted)
+      $show_demo = false;
   } 
   if ($show_demo) {
 ?>
